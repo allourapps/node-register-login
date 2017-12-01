@@ -1,0 +1,36 @@
+{
+  "name": "node-registration-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index",
+    "start": "node index"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Eduard Simonyan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "4.12.1",
+    "eslint-config-google": "0.9.1",
+    "eslint-config-rallycoding": "3.2.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
+  },
+  "dependencies": {
+    "async": "2.6.0",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.1.0",
+    "mongoose": "4.13.5",
+    "morgan": "1.9.0",
+    "pug": "2.0.0-rc.4",
+    "winston": "2.4.0"
+  }
+}
